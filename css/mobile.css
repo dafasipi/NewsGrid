@@ -10,11 +10,11 @@
 
 #main-nav ul,
 #main-nav .logo {
-  justify-self: center ;
+  justify-self: center;
 }
 
 #main-nav ul li a {
-  padding:  0.5rem;
+  padding: 0.5rem;
 }
 
 #home-articles .articles-container {
@@ -26,7 +26,6 @@
   grid-template-columns: 1fr;
   grid-column: 1;
 }
-
 
 @media (max-width: 320px) {
   #article .meta {
@@ -45,8 +44,8 @@
     grid-column: 1;
   }
 
-  #main-footer .footer-container >*:first-child,
-  #main-footer .footer-container >*:nth-child(2) {
+  #main-footer .footer-container > *:first-child,
+  #main-footer .footer-container > *:nth-child(2) {
     border-bottom: #444 dotted 1px;
     padding-bottom: 1rem;
   }
@@ -65,7 +64,7 @@
   }
 
   #showcase .showcase-container {
-    height: 100%
+    height: 100%;
   }
 
   .l-heading {
